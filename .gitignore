@@ -1,15 +1,11 @@
 # Virtual Environment
 env/
-bin/
 venv/
 ENV/
 
 # Django specific
 *.pyc
 **/__pycache__/
-db.sqlite3
-media_root/
-static_in_env/
 
 # Secrets & Config
 .env
